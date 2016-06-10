@@ -1,0 +1,183 @@
+运算符:
+按功能分类: 算术运算符、关系运算符与逻辑运算符、按位运算符
+根据参与运算操作数的个数分类: 单目运算符、双目运算符、三目运算符
+
+double a = 4, b = 3;
+
+//    1.算术运算符
+//    左结合性, 从左至右计算
+printf("%lf\n", a + b); // 加 7
+printf("%lf\n", a - b); // 减 1
+printf("%lf\n", a * b); // 乘 12
+printf("%lf\n", a / b); // 除
+printf("%i\n", (int)a % (int)-b); // 取模 [取余数, 只能用于整数之间, 正负取决于左边的操作数]
+
+/*
+自动类型转换(隐式转换):
+int number = 10.8; --> number = 10
+若等号右侧字节数大于左侧, 则系统采取丢失精度的方式, 自动转换为等号左侧的类型
+
+强制类型转换(显式转换):
+int number = (int)10.8; --> number = 10
+格式: (需要转换的类型)需要转换的数据]
+
+注意:
+无论隐式转换还是显式转换, 只要将一个大类型的数据, 转换为小类型的数据, 就有可能丢失精度
+
+自动类型提升:
+int number = 10 + 9.9; --> number = 19
+算术运算符规定: 只有相同类型的数据才可以进行运算
+在计算过程中, 参与运算的操作数不是同一类型的, 系统会自动将小类型转换为大类型, 然后进行计算
+int number = 10 + 9.9; --> int number = 10.0 + 9.9 --> int number = (int)19.9 --> int number = 19;
+
+Ps: 参与运算的操作数是什么类型, 计算出来的结果就是什么类型
+double result = 1 / 2; --> double result = 0 因为1是int, 2也是int
+double result = 1.0 / 2; --> double result = 0.5
+*/
+
+
+/*
+2.赋值运算符
+简单赋值运算符: =
+复合赋值运算符: +=、-=、*=、/=、%=
+先计算等号右边的值, 然后再用计算出来的结果和等号左边的值进行计算
+*/
+//    简单赋值运算符
+//    赋值运算符的结合性: 从右至左
+int number = 10;
+
+//    复合赋值运算符
+number += 5 + 3; // number = number + (5 + 3);
+
+
+/*
+3.自增自减运算符
+[只能用于变量]
+如果++写在变量的前面, 那么会先将变量自增再用自增后的结果参与运算(++在前, 先自增再运算)
+如果++写在变量的后面, 那么会先将变量的值参与运算后再将变量自增(++在后, 先自减再运算)
+*/
+int selfOperNum = 10;
+int selfOperRes = selfOperNum++; // selfOperRes = 10 selfOperNum = 11
+printf("%i\n", selfOperRes); // 10
+selfOperRes = ++selfOperNum; // selfOperRes = 12
+printf("%i\n", selfOperRes); // 12
+
+int a1 = 10;
+int a2 = 10;
+int a1_a2 = (++a1) + (a2++); // a1_a2 = 11 + 10
+printf("%i\n", a1_a2);
+
+
+/*
+4.sizeof 运算符
+注意: sizeof 是运算符, 不是函数
+格式: sizeof(常量/变量) 计算一个变量/常量在内存中占用的字节数
+sizeof 类型位unsigned long
+*/
+printf("number = %lu\n", sizeof(10)); // 10是int, 64位编译器占4个字节
+//    如果sizeof 计算常量, 可以省略括号, 中间用空格隔开
+printf("number = %lu\n", sizeof 10);
+
+//    计算变量
+double doubleValue = 10.9;
+printf("number = %lu\n", sizeof(doubleValue));
+//    如果sizeof 计算变量, 可以省略括号, 中间用空格隔开
+printf("number = %lu\n", sizeof doubleValue);
+
+//    计算数据类型
+//    如果sizeof 计算数据类型, 括号不能省略
+printf("number = %lu\n", sizeof(char));
+
+
+/*
+5.逗号运算符
+左结合性, 从左至右
+*/
+int dNum1 = 1;
+int dNum2 = 2;
+int dResult;
+dNum1 = dNum1 + 1, dResult = dNum1 + dNum2; // 先计算dNum1 = dNum1 + 1, 后计算dResult = dNum1 + dNum2
+printf("%i\n", dResult);
+
+//    只要是运算符, 一定有运算结果. 逗号运算符的结果就是最后一个表达式的结果
+int dR1 = 10;
+int dR2 = 5;
+int dR = ((dR1 = dR1 + 5), (dR2 = dR2 + 1)); // dR = (dR2 = dR2 = 1) = 6
+printf("%i\n", dR);
+
+
+/*
+6.关系运算符
+结合性: 从左到右
+C语言中, 0为假, 任何非0值都为真
+*/
+int rNum1 = 10;
+int rNum2 = 5;
+//    > 大于
+printf("%i\n", rNum1 > rNum2); // 1
+//    < 小于
+printf("%i\n", rNum1 < rNum2); // 0
+//    >= 大于等于
+printf("%i\n", rNum1 >= rNum2); // 1
+//    <= 小于等于
+printf("%i\n", rNum1 <= rNum2); // 0
+//    == 等于
+printf("%i\n", rNum1 == rNum2); // 0
+//    != 不等于
+printf("%i\n", rNum1 != rNum2); // 1
+//    > < >= <= 优先级 大于 == !=
+//    算术运算符的优先级, 大于关系运算符
+int result = 10 - 10 > 5 == 1; // int result = ((10 - 19) > 5) == 1; --> int result = 0 == 1; --> int result = 0
+printf("%i\n", result);
+
+
+/*
+7.逻辑运算符
+返回值只有两种: 要么1(真), 要么0(假)
+*/
+
+/*
+逻辑与
+结合性: 从左至右
+格式: 表达式1 && 表达式2
+只有表达式1和表达式2都为真的时候, 逻辑与返回真
+只要表达式1和表达式2中有一个是假, 逻辑与返回假
+口诀: 一假则假
+如果表达式1为假, 则表达式2不参与运算(逻辑短路)
+*/
+int lResult1 = 10 > 8 && 5 > 8;
+printf("%i\n", lResult1);  // 0
+
+/*
+逻辑或
+结合性: 从左至右
+格式: 表达式1 || 表达式2
+只有表达式1和表达式2都为假的时候, 逻辑与返回假
+只要表达式1和表达式2中有一个是真, 逻辑与返回真
+口诀: 一真则真
+如果表达式1为真, 则表达式2不参与运算(逻辑短路)
+*/
+int lResult2 = 10 > 8 || 5 > 8;
+printf("%i\n", lResult2); // 1
+
+/*
+逻辑非
+结合性: 从右至左
+格式: !表达式
+如果表达式是真, 返回假
+如果表达式是假, 返回真
+*/
+int lResult3 = !(10 > 8);
+printf("%i\n", lResult3); // 0
+
+//    注意: C语言规定, 任何数值都有真假性. 非0即真. 所有逻辑运算符都可以直接与数值进行计算
+
+
+/*
+8.三目运算符
+格式: 条件表达式 ? 结果A : 结果B
+结合性: 从左至右
+若条件表达式为真(1), 返回结果A, 若条件表达式结果为假(0), 返回结果B
+*/
+int sResult = (1 < 2) ? 10 + 5 : 20;
+printf("%i\n", sResult);
