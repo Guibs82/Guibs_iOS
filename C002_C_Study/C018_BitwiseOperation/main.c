@@ -8,6 +8,43 @@
 
 #include <stdio.h>
 
+// 根据输入的数字, 输出其对应的二进制
+void printBinay(int value) {
+    // 右移的位数
+    int offset = 31;
+    // 循环取出每一位
+    while (offset >= 0) {
+        int result = (value >> offset) & 1;
+        printf("%i", result);
+        // 每次取出一位, 将偏移量-1
+        offset--;
+        // 四位一空格
+        if ((offset + 1) % 4 == 0) {
+            printf("  ");
+        }
+    }
+    printf("\n");
+}
+
+// 判断某个数字奇偶性
+// 偶数的二进制最后一位是0, 奇数是1
+void oddEven(int num) {
+    if (num & 1) {
+        printf("奇数\n");
+    } else {
+        printf("偶数\n");
+    }
+}
+
+// 交换两个变量的值
+void changeValue(int a, int b) {
+    printf("a = %i, b = %i\n", a, b);
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    printf("a = %i, b = %i\n", a, b);
+}
+
 int main(int argc, const char * argv[]) {
     
     /*
@@ -89,6 +126,14 @@ int main(int argc, const char * argv[]) {
         */
     printf("%i\n", 9 >> 1);
 
+//    打印某个数字的二进制形式
+    printBinay(10);
+    
+//    判断奇偶性
+    oddEven(10);
+    
+//    交换变量的值
+    changeValue(10, 20);
 
     return 0;
 }
