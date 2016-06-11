@@ -1,0 +1,10 @@
+/*
+类型说明符:
+1.说明长度的(他可以用于修改类型所占用的存储空间的大小)
+short; == short int --> 2字节 --> %hi %hd
+long; == long int --> 8字节(64位下) --> %li %ld
+long long; == long long int --> 8字节 --> %lli %lld
+2.说明符号位(他可以用于修改符号位)
+unsigned; 有符号(默认)
+signed; 无符号 --> %u
+*/
