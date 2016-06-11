@@ -74,6 +74,36 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>C016_JinZhi.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>C017_YuanMa&amp;FanMa&amp;BuMa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>C018_BitwiseOperation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>C019_Char.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>C020_TypeDescriptor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>C021_Array.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -103,6 +133,36 @@
 			<true/>
 		</dict>
 		<key>A23A51891D0C65B600995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51981D0C6A3900995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51A41D0C6EE500995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51B01D0C73E600995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51BC1D0C7F9B00995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51C81D0C834400995C7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A23A51D41D0C87DF00995C7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
