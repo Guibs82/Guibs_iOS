@@ -1,0 +1,23 @@
+// 选择排序
+void selectSort(int nums[], int length) {
+//    拿到其中一个元素依次和其他元素比较, 完全比较后, 最值出现在第0位
+for (int i = 0; i < length - 1; i++) {
+for (int j = i + 1; j <= length - 1; j++) {
+if (nums[i] > nums[j]) {
+swap(nums, i, j);
+}
+}
+}
+}
+
+// 冒泡排序
+void bubbleSort(int nums[], int length) {
+//    用相邻的两个元素比较, 比较完最值出现在末尾
+for (int i = 0; i < length; i++) {
+for (int j = 0; j < length - 1; j++) {
+if (nums[j] > nums[j + 1]) {
+swap(nums, i, j+1);
+}
+}
+}
+}
