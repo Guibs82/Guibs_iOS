@@ -114,6 +114,16 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>C024_Two-DimensionalArray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>C025_String.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -223,6 +233,16 @@
 			<true/>
 		</dict>
 		<key>A253CF2A1D09DACE00157088</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2578DAE1D1305BA00B66093</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2915C381D1316B800075B01</key>
 		<dict>
 			<key>primary</key>
 			<true/>
