@@ -1,0 +1,117 @@
+字符串
+
+//    用双引号引起来的就是字符串
+printf("Hello, World!\n");
+
+//    如何定义字符串变量:
+//        由于字符串是同一种类型的数据组成, 且是有序的, 而数组就是用于存储很多同一类型的有序数据, 所以可以使用数组存储字符串
+
+//    注意: 字符串变量和普通的字符数组有一定区别:
+//        C语言规定, 字符串必须以\0 结尾(作为字符串的结束符), 所以字符串变量的元素个数比字符串的元素个数多一个\0
+char str[] = "gzy";
+printf("str size = %lu\n", sizeof(str));
+
+char charValues[] = {'g', 'z', 'y'}; // 字符数组, 这个并不是字符串, 而是字符数组
+printf("charValues  size = %lu\n", sizeof(charValues));
+
+//    输出字符串变量 s%
+//    s% 的原理: 从传入的地址开始, 逐个取出元素, 直到遇到\0
+
+printf("%s\n", str);    // gzy
+printf("%s\n", charValues); // gzygzy
+
+//    字符串的初始化
+char str1[] = "hello guibs";
+char str2[] = {'h', 'e', 'l', 'l', 'o', ' ', 'g', 'u', 'i', 'b', 's', '\0'};
+char str3[12] = {'h', 'e', 'l', 'l', 'o', ' ', 'g', 'u', 'i', 'b', 's'}; // 不完全初始化, 默认赋值0 (等同于自动填写了\0)
+
+printf("%s\n", str1); // hello guibs
+printf("%s\n", str2); // hello guibs
+printf("%s\n", str3); // hello guibs
+
+//    字符串都是以\0 结尾, 没有\0 结尾的就不是字符串
+//    只要是双引号括起来的都是字符串
+//    字符串的本质是数组
+
+//    注意:
+//    1.如何输出字符串
+//    1.1 printf + %s
+//      缺点: 如果要换行, 必须加上\n
+//      优点: 可以自定义格式化需要输出的字符串, 也就是可以按照我们需要的格式来输出
+char gName[] = "gubis";
+printf("name is %s\n", gName);
+//    1.2 puts
+//      缺点: 不可以自定义格式, 只能原样输出
+//      优点: 可以自动换行
+puts(gName);
+
+//    2.如何输入字符串
+//    2.1 scanf
+//      注意: 使用scanf 接收字符串, 会以空格/回车/Tab 作为结束符
+//    printf("请输入一个字符串\n");
+//    char buf[10];
+//    scanf("%s", buf);
+//    printf("buf = %s\n", buf);
+
+//    2.2 gets
+//    warning: this program uses gets(), which is unsafe.
+//    如果使用gets() 接收字符串, 系统会提示我们正在使用一个不安全的方法接收字符串
+//    优点: 如果用gets() 接受字符串, 可以在字符串中输入空格/回车/Tab
+printf("请输入一个字符串\n");
+char buf2[10];
+gets(buf2);
+printf("buf2 = %s\n", buf2);
+
+//    3.计算字符串长度
+char strToLength[] = "This is a string to get the length";
+
+int length = (int)strlen(strToLength); // strlen 需要 #include <string.h> 计算出的长度不包括\0
+printf("The length of strToLength is %i\n", length);
+
+for (int i = 0; i < length; i++) {
+printf("strToLength[%i] = %c\n", i, strToLength[i]);
+}
+
+
+//    字符串 拼接 拷贝 比较
+
+char pStr1[10] = "hello";
+char pStr2[10] = " Guibs";
+
+//    4.字符串拼接
+//    原理: 首先遍历第一个字符串, 直到遇到\0, 然后取出第二个字符串中的字符, 从第一个字符串\0 的位置开始添加, 添加完毕后在最后再添加一个\0
+
+//    拼接字符串(将pStr2 的内容, 拼接到pStr1 后)
+//    注意: 如果pStr1 的数组长度不够存放pStr2 则报错
+//    strcat(pStr1, pStr2); // 报错, 因为拼接后, 数组越界
+//    printf("拼接后: %s\n", pStr1);
+
+//    strncat(char *, const char *, size_t) size_t 可用于防止数组越界, 传入要拼接的元素个数
+int canCatCount = (int)sizeof(pStr1) / sizeof(pStr1[0]) - (int)strlen(pStr1) - 1; // pStr1 还能拼接的元素个数
+
+strncat(pStr1, pStr2, canCatCount);
+printf("拼接后: %s\n", pStr1);
+
+//    5.字符串拷贝
+//    strcpy 函数会将源的数据拷贝到目标中, 并覆盖掉原有数据, 拷贝替换是逐个替换, 拷贝了几个就替换几个
+//    注意拷贝后的数组越界问题, 一旦越界, 会报错
+printf("拷贝前pStr1: %s\n", pStr1);
+
+strcpy(pStr1, pStr2);
+strncpy(pStr1, pStr2, 2); // 限制拷贝元素的数量(动态计算可拷贝元素数量)
+
+printf("拷贝后pStr1: %s\n", pStr1);
+
+//    5.字符串比较
+//     对传入的字符串进行比较, 比较完毕后, 返回int 值. 如果return 0 证明字符串相等, 如果返回值小于0, 证明str1 小于 str2. 反之, 则大于
+//    原理: 取出字符串中的每一个字符, 进行逐个比较, 如果发现不相等, 就不会继续往下比较 (按位ASCII 码比较, 短路比较)
+int result = strcmp(pStr1, pStr2);
+printf("%i\n", result);
+
+
+//    字符串数组:
+//       说白了就是二维数组
+char strArray[2][20] = {
+"guibs",
+"Objective-C"
+};
