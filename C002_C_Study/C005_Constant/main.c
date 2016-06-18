@@ -49,5 +49,19 @@ int main(int argc, const char * argv[]) {
 //    const dataType dataName = dataValue
     const int a = 0;
     
+    /*
+        const 修饰符
+            const对基本数据类型的作用, 可以让基本数据类型变量变为常量
+            写法: 1.写在数据类型的左边 2.写在数据类型的右边 const int a == int const a
+     
+        如果const 写在指针类型的左边, 意味着指针的指向可以改变, 但是指向的内存空间中的值不能改变 const int *p
+        如果const 写在指针的数据类型和* 之间, 则指向的内存空间中的值不能改变, 但是指针的指向可以改变 int const *p
+        如果const 写在指针的右边, 则指向的内存空间中的值能改变, 但是指针的指向不可以改变 int * const p
+     
+        规律: 
+            如果const写在变量名旁, 则指针指向不能变, 指向的内存空间的值可以变
+            如果const写在数据类型的左边或右边, 则指针指向可以变, 指向的内存空间的值不可以变
+     */
+    
     return 0;
 }
