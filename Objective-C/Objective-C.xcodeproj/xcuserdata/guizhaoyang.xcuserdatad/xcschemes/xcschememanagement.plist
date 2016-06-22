@@ -4,6 +4,41 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OC001_ClassAndObject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>OC002_ClassAndObject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>OC003_ClassAndObjectSummary.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>OC004_NSString.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>OC005_StructForMethod.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>OC006_ObjectForMethod.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>OC007_AnonymousObject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Objective-C.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +48,41 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A2FC73861D189967000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73971D18A996000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73A21D18CC58000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73AD1D1A2838000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73B81D1A4374000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73C31D1A6220000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73CE1D1A6773000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73E71D1A96A1000C32E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
