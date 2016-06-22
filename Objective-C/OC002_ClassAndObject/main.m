@@ -14,28 +14,28 @@
         方法: eat sleep walk
  */
 
-//@interface Person : NSObject
-//
-//
-//{
-//    // 属性
-//    // 写在类的声明的大括号中间的变量, 我们称之为成员变量
-//    // 成员变量只能通过对象来访问
-//    // 注意: 成员变量不能离开类, 离开类之后就不是成员变量, 成员变量不能在定义的同时初始化
-//    @public
-//    int _age;
-//    float _height;
-//    float _weight;
-//}
-//
-//// 行为
-//- (void)eat:(char *)food;
-//- (void)sleep;
-//- (void)walk;
-//
-//+ (void)Demo;
-//
-//@end
+@interface Person : NSObject
+
+
+{
+    // 属性
+    // 写在类的声明的大括号中间的变量, 我们称之为成员变量
+    // 成员变量只能通过对象来访问
+    // 注意: 成员变量不能离开类, 离开类之后就不是成员变量, 成员变量不能在定义的同时初始化
+    @public
+    int _age;
+    float _height;
+    float _weight;
+}
+
+// 行为
+- (void)eat:(char *)food;
+- (void)sleep;
+- (void)walk;
+
++ (void)Demo;
+
+@end
 
 
 @implementation Person : NSObject // : NSObject 后, 可以不需声明, 不过不建议这样
