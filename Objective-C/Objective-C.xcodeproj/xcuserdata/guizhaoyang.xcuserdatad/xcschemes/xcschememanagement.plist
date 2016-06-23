@@ -39,6 +39,16 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>OC008_Encapsulation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>OC_009Getter_Setter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Objective-C.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,6 +57,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A2BF2CE01D1C20C30058E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2FC73861D189967000C32E2</key>
 		<dict>
 			<key>primary</key>
@@ -83,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>A2FC73E71D1A96A1000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FC73F51D1C0D01000C32E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
