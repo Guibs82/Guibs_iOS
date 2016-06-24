@@ -44,6 +44,41 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>OC010_DotSyntax.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>OC011_Self.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>OC012_Inherit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>OC013_Super.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>OC014_Polymorphic.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>OC015_InstanceVariableModifier.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>OC016_Description.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>OC_009Getter_Setter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -57,7 +92,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A20102651D1D0CF100552FDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A25D8F9D1D1CCD3F00F6AF54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A266ABDF1D1CD4B200910D30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A27514441D1D112D0082E3C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A28E16D21D1CE10700314496</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A28E16E61D1CE4CD00314496</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2BF2CE01D1C20C30058E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2F9A7E11D1CC80D00162E7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
