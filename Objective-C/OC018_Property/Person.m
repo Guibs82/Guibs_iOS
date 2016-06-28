@@ -26,7 +26,7 @@
 //}
 
 - (double)weight {
-    return _weight;
+    return _weight; 
 }
 
 - (NSString *)name {

@@ -10,7 +10,7 @@
 
 @interface Person : NSObject
 {
-//    int _age;
+    int _age;
     double _weight;
     NSString *_name;
 }
@@ -31,8 +31,9 @@
 
 /*
     @property --> 编译器指令
-    在Xcode4.4 可以代替getter/setter方法
-    编译器只要看到@property, 就知道要为属性生成对应的getter&setter
+    在Xcode4.4- 可以代替getter/setter方法
+    编译器只要看到@property, 就知道要为属性生成对应的getter&setter的声明
+    在Xcode4.5+ 可以同时生成getter&setter的声明和实现, 如果没有告诉@property要传入的参数赋值给谁, 则会默认赋值给 _参数名
  */
 @property int age; // 通过@property 生成的getter&setter方法名中的变量名就是此处的变量名, 所以age不需要加_
 
