@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         
 //        p ->_hobby; // 无法看到在implementation 中声明的hobby
         
-        [p sayHobby];
+//        [p sayHobby]; // sayHobby是私有方法, 无法通过该方式直接访问
     }
     return 0;
 }
