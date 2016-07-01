@@ -10,6 +10,7 @@
 
 // 类扩展(匿名分类) --------
 // 可以添加属性, 都是私有的(.m中, 外界看不到)
+// 作用: 添加私有属性和方法
 @interface Person ()
 
 @property(nonatomic, strong) NSString *name;
