@@ -660,7 +660,7 @@
 		A2BE8B4A1D20A6E000AB1167 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2BE8B4F1D20A71000AB1167 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A2BE8B501D20A71000AB1167 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		A2BF2CE11D1C20C30058E00C /* OC_009Getter_Setter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_009Getter_Setter; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BF2CE11D1C20C30058E00C /* OC009Getter_Setter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC009Getter_Setter; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BF2CE31D1C20C30058E00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2BF2CE81D1C20DC0058E00C /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
 		A2BF2CE91D1C20DC0058E00C /* Gun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
@@ -1510,7 +1510,7 @@
 				A2FC73CF1D1A6773000C32E2 /* OC006_ObjectForMethod */,
 				A2FC73E81D1A96A1000C32E2 /* OC007_AnonymousObject */,
 				A2FC73F61D1C0D01000C32E2 /* OC008_Encapsulation */,
-				A2BF2CE11D1C20C30058E00C /* OC_009Getter_Setter */,
+				A2BF2CE11D1C20C30058E00C /* OC009Getter_Setter */,
 				A2F9A7E21D1CC80D00162E7F /* OC010_DotSyntax */,
 				A25D8F9E1D1CCD3F00F6AF54 /* OC011_Self */,
 				A266ABE01D1CD4B200910D30 /* OC012_Inherit */,
@@ -2090,9 +2090,9 @@
 			productReference = A2BE8B481D20A6E000AB1167 /* OC018_Property */;
 			productType = "com.apple.product-type.tool";
 		};
-		A2BF2CE01D1C20C30058E00C /* OC_009Getter_Setter */ = {
+		A2BF2CE01D1C20C30058E00C /* OC009Getter_Setter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2BF2CE71D1C20C30058E00C /* Build configuration list for PBXNativeTarget "OC_009Getter_Setter" */;
+			buildConfigurationList = A2BF2CE71D1C20C30058E00C /* Build configuration list for PBXNativeTarget "OC009Getter_Setter" */;
 			buildPhases = (
 				A2BF2CDD1D1C20C30058E00C /* Sources */,
 				A2BF2CDE1D1C20C30058E00C /* Frameworks */,
@@ -2102,9 +2102,9 @@
 			);
 			dependencies = (
 			);
-			name = OC_009Getter_Setter;
+			name = OC009Getter_Setter;
 			productName = OC_009Getter_Setter;
-			productReference = A2BF2CE11D1C20C30058E00C /* OC_009Getter_Setter */;
+			productReference = A2BF2CE11D1C20C30058E00C /* OC009Getter_Setter */;
 			productType = "com.apple.product-type.tool";
 		};
 		A2C195AD1D2561EC00862BA3 /* OC035_Property修饰符 */ = {
@@ -2686,7 +2686,7 @@
 				A2FC73CE1D1A6773000C32E2 /* OC006_ObjectForMethod */,
 				A2FC73E71D1A96A1000C32E2 /* OC007_AnonymousObject */,
 				A2FC73F51D1C0D01000C32E2 /* OC008_Encapsulation */,
-				A2BF2CE01D1C20C30058E00C /* OC_009Getter_Setter */,
+				A2BF2CE01D1C20C30058E00C /* OC009Getter_Setter */,
 				A2F9A7E11D1CC80D00162E7F /* OC010_DotSyntax */,
 				A25D8F9D1D1CCD3F00F6AF54 /* OC011_Self */,
 				A266ABDF1D1CD4B200910D30 /* OC012_Inherit */,
@@ -4102,7 +4102,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2BF2CE71D1C20C30058E00C /* Build configuration list for PBXNativeTarget "OC_009Getter_Setter" */ = {
+		A2BF2CE71D1C20C30058E00C /* Build configuration list for PBXNativeTarget "OC009Getter_Setter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2BF2CE51D1C20C30058E00C /* Debug */,

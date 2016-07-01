@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2BF2CE01D1C20C30058E00C"
-               BuildableName = "OC_009Getter_Setter"
-               BlueprintName = "OC_009Getter_Setter"
+               BuildableName = "OC009Getter_Setter"
+               BlueprintName = "OC009Getter_Setter"
                ReferencedContainer = "container:Objective-C.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BF2CE01D1C20C30058E00C"
-            BuildableName = "OC_009Getter_Setter"
-            BlueprintName = "OC_009Getter_Setter"
+            BuildableName = "OC009Getter_Setter"
+            BlueprintName = "OC009Getter_Setter"
             ReferencedContainer = "container:Objective-C.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BF2CE01D1C20C30058E00C"
-            BuildableName = "OC_009Getter_Setter"
-            BlueprintName = "OC_009Getter_Setter"
+            BuildableName = "OC009Getter_Setter"
+            BlueprintName = "OC009Getter_Setter"
             ReferencedContainer = "container:Objective-C.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2BF2CE01D1C20C30058E00C"
-            BuildableName = "OC_009Getter_Setter"
-            BlueprintName = "OC_009Getter_Setter"
+            BuildableName = "OC009Getter_Setter"
+            BlueprintName = "OC009Getter_Setter"
             ReferencedContainer = "container:Objective-C.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

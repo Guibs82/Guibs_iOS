@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>OC009Getter_Setter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>OC010_DotSyntax.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -213,11 +218,6 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>43</integer>
-		</dict>
-		<key>OC_009Getter_Setter.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
 		</dict>
 		<key>Objective-C.xcscheme</key>
 		<dict>
