@@ -1350,13 +1350,14 @@
 			path = OC018_Property;
 			sourceTree = "<group>";
 		};
-		A2BF2CE21D1C20C30058E00C /* OC_009Getter_Setter */ = {
+		A2BF2CE21D1C20C30058E00C /* OC009Getter_Setter */ = {
 			isa = PBXGroup;
 			children = (
 				A2BF2CE31D1C20C30058E00C /* main.m */,
 				A2BF2CE81D1C20DC0058E00C /* Gun.h */,
 				A2BF2CE91D1C20DC0058E00C /* Gun.m */,
 			);
+			name = OC009Getter_Setter;
 			path = OC_009Getter_Setter;
 			sourceTree = "<group>";
 		};
@@ -1458,7 +1459,7 @@
 				A2FC73D01D1A6773000C32E2 /* OC006_ObjectForMethod */,
 				A2FC73E91D1A96A1000C32E2 /* OC007_AnonymousObject */,
 				A2FC73F71D1C0D01000C32E2 /* OC008_Encapsulation */,
-				A2BF2CE21D1C20C30058E00C /* OC_009Getter_Setter */,
+				A2BF2CE21D1C20C30058E00C /* OC009Getter_Setter */,
 				A2F9A7E31D1CC80D00162E7F /* OC010_DotSyntax */,
 				A25D8F9F1D1CCD3F00F6AF54 /* OC011_Self */,
 				A266ABE11D1CD4B200910D30 /* OC012_Inherit */,
