@@ -79,6 +79,141 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>OC017_Private.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>OC018_Property.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>OC019_Synthesize.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>OC020_Property修饰符.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>OC021_id.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>OC022_new的实现原理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>OC023_构造方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>OC024_instancetype和id.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>OC025_自定义构造方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>OC026_自定义构造方法在继承中的表现.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>OC027_自定义类工厂方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
+		<key>OC028_类的本质.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>OC029_类的启动.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>OC030_SEL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>OC031_内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>OC032_野指针和空指针.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>OC033_多个对象的内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>OC034_Set方法的内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
+		<key>OC035_Property修饰符.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>OC036_@Class.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
+		<key>OC037_循环retain.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
+		<key>OC038_Autorelease.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>OC039_ARC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>OC040_ARC多对象内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>OC041_ARC_MRC混编.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>OC042_MRC转ARC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>OC043_Category.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
 		<key>OC_009Getter_Setter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -92,7 +227,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A200280F1D22EBA6006CEB10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A20102651D1D0CF100552FDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A20FC0D41D2424EF00A2358F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21F39971D2589B300FCA3F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21F39A81D263DC600FCA3F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A227651F1D25317B000AA63D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A22765301D253CA5000AA63D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2285FEE1D2529B4003019B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A234BBD31D266369003D2B6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,12 +277,47 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A25F27001D226C31007E5DBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A25F270E1D22DD26007E5DBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A266ABDF1D1CD4B200910D30</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A26A77D41D23CC2E00B87AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A26A77E51D23FEEC00B87AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A27514441D1D112D0082E3C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2776C5A1D257C9500AEAE4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2776C651D257CB600AEAE4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A280554D1D265B630009C33E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,7 +332,72 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A29347791D2428820028A210</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A29B800E1D226330009A73F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2A22D521D23BDF100D4E171</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2B6A05C1D2411AC00189664</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2BBAB511D20A2B900698997</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2BE8B471D20A6E000AB1167</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2BF2CE01D1C20C30058E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2C195AD1D2561EC00862BA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2C80E491D251D06004E3003</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2DA3AD81D23C52100756501</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2EE07591D251BBF007558BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2EF29A51D267459008DC224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2EF29C41D2679D9008DC224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2EF29D81D267D19008DC224</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -173,6 +448,11 @@
 			<true/>
 		</dict>
 		<key>A2FC73F51D1C0D01000C32E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FEAE2A1D23B26300125562</key>
 		<dict>
 			<key>primary</key>
 			<true/>
