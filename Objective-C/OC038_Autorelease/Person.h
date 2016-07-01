@@ -1,0 +1,24 @@
+//
+//  Person.h
+//  Objective-C
+//
+//  Created by 桂朝阳 on 16/7/1.
+//  Copyright © 2016年 NexTed. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Person : NSObject
+{
+    int _age;
+}
+
+- (void)run;
+
+- (instancetype)person;
+
+- (instancetype)initWithAge:(int)age;
+
++ (instancetype)personWithAge:(int)age;
+
+@end
