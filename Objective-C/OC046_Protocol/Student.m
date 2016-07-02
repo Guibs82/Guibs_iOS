@@ -10,15 +10,15 @@
 
 @implementation Student
 
-- (void)playFootball {
+- (void)sportPlayFootball:(Person *)person {
     NSLog(@"play football");
 }
 
-- (void)playBasketball {
+- (void)sportPlayBasketball:(Person *)person {
     NSLog(@"play basketball");
 }
 
-- (void)playBaseball {
+- (void)sportPlayBaseball:(Person *)person {
     NSLog(@"play baseball");
 }
 
