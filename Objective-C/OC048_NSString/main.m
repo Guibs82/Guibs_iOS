@@ -285,6 +285,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", ocStr);
         const char *cStr2 = [ocStr UTF8String];
         printf("%s", cStr2);
+        
+//        21.字符串长度(内容)
+        NSLog(@"%lu", (unsigned long)ocStr.length);
+        
+//        22.指定位置的字符
+        NSLog(@"%c", [ocStr characterAtIndex:2]);
     }
     return 0;
 }
