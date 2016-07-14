@@ -1,0 +1,10 @@
+-动态计算九宫格
+-代码创建控件
+-按钮点击性
+-HUD
+-延时操作(performSelector&GCD&NSTimer)
+-plist [NSBundle]
+-懒加载
+-模型存放数据对象
+-封装view
+-懒加载配合layoutSubviews布局子控件(可以作为屏幕适配)
