@@ -1,0 +1,37 @@
+-scrollView
+
+-设置contentSize: 滚动范围
+
+-scrollEnabled: 是否可滚动
+
++动画
+// 方式1
+- 动画执行某些操作
+[UIView beginAnimations:nil context:nil];
+[UIView setAnimationDuration:1.0]; // 动画时长
+[UIView setAnimationDelegate:XXX]; // 设置动画代理
+[UIView setAnimationDidStartSelector:@selector(XXXAction)]; // 动画开始时, 执行代理的XXXAction方法
+[UIView setAnimationDidStopSelector:@selector(XXXAction)]; // 动画结束时, 执行代理的XXXAction方法
+    XXXXX;
+    XXXXX;
+[UIView commitAnimations];
+-动画执行某些操作
+- XXXAction {
+    ...;
+}
+
+// 方式2
+[self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, 0) animated:YES];
+
+// 方式3
+[UIView animateWithDuration:1.0 animations:^{
+    ...// 要执行的操作
+}];
++动画
+
+- contentInset:UIEdgeInsets 设置scrollView的非自动弹回区域大小
+
+- scrollView.bounces = YES; // 设置scrollView的弹簧效果[若为NO,则达到contentSize就不可再继续拉动]
+
+- scrollView.showsVerticalScrollIndicator = NO; //是否显示垂直滚动条
+- scrollView.showsHorizontalScrollIndicator = YES; //是否显示水平滚动条
