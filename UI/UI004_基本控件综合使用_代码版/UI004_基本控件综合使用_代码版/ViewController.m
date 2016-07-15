@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Shop.h"
 #import "GZYShopView.h"
+#import "GZYXibShopView.h"
 
 @interface ViewController ()
 
@@ -177,9 +178,15 @@
     // 没行之间的距离
     CGFloat rowMargin = 10;
     
+    // 代码方式创建shopView
+    /*
     // 创建一个用于存放图片和文字的容器
     GZYShopView *shopView = [GZYShopView shopView];
+    */
     
+    // xib方式创建shopView
+    GZYXibShopView *shopView = [GZYXibShopView shopView];
+     
     // 尺寸&位置计算
     // 商品容器的index
     NSUInteger index = self.shopViews.subviews.count;
@@ -198,7 +205,7 @@
     Shop *shop = self.shops[index];
     
     // 加载模型数据
-    shopView.shop = shop;
+     shopView.shop = shop;
     
     // 判断按钮点击性
     [self btnIsEnable];

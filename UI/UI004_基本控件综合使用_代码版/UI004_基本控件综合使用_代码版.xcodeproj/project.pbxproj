@@ -17,6 +17,8 @@
 		A25E8AE71D36A33200CF3BA9 /* 总结 in Resources */ = {isa = PBXBuildFile; fileRef = A25E8AE61D36A33200CF3BA9 /* 总结 */; };
 		A25E8AEA1D377CF700CF3BA9 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E8AE91D377CF700CF3BA9 /* Shop.m */; };
 		A25E8AEF1D378A8000CF3BA9 /* GZYShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E8AEE1D378A8000CF3BA9 /* GZYShopView.m */; };
+		A28BDBA91D37F2F2005DC249 /* GZYXibShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28BDBA81D37F2F2005DC249 /* GZYXibShopView.xib */; };
+		A28BDBAE1D37F66C005DC249 /* GZYXibShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A28BDBAD1D37F66C005DC249 /* GZYXibShopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		A25E8AE91D377CF700CF3BA9 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
 		A25E8AED1D378A8000CF3BA9 /* GZYShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYShopView.h; sourceTree = "<group>"; };
 		A25E8AEE1D378A8000CF3BA9 /* GZYShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYShopView.m; sourceTree = "<group>"; };
+		A28BDBA81D37F2F2005DC249 /* GZYXibShopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZYXibShopView.xib; sourceTree = "<group>"; };
+		A28BDBAC1D37F66C005DC249 /* GZYXibShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZYXibShopView.h; sourceTree = "<group>"; };
+		A28BDBAD1D37F66C005DC249 /* GZYXibShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZYXibShopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +118,30 @@
 		A25E8AF01D378A8400CF3BA9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A25E8AED1D378A8000CF3BA9 /* GZYShopView.h */,
-				A25E8AEE1D378A8000CF3BA9 /* GZYShopView.m */,
+				A28BDBAA1D37F3CF005DC249 /* ShopView纯代码方式 */,
+				A28BDBAB1D37F3E0005DC249 /* ShopViewXIB */,
 			);
 			name = View;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		A28BDBAA1D37F3CF005DC249 /* ShopView纯代码方式 */ = {
+			isa = PBXGroup;
+			children = (
+				A25E8AED1D378A8000CF3BA9 /* GZYShopView.h */,
+				A25E8AEE1D378A8000CF3BA9 /* GZYShopView.m */,
+			);
+			name = "ShopView纯代码方式";
+			sourceTree = "<group>";
+		};
+		A28BDBAB1D37F3E0005DC249 /* ShopViewXIB */ = {
+			isa = PBXGroup;
+			children = (
+				A28BDBA81D37F2F2005DC249 /* GZYXibShopView.xib */,
+				A28BDBAC1D37F66C005DC249 /* GZYXibShopView.h */,
+				A28BDBAD1D37F66C005DC249 /* GZYXibShopView.m */,
+			);
+			name = ShopViewXIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25E8AE71D36A33200CF3BA9 /* 总结 in Resources */,
+				A28BDBA91D37F2F2005DC249 /* GZYXibShopView.xib in Resources */,
 				A25E8ADD1D36249900CF3BA9 /* LaunchScreen.storyboard in Resources */,
 				A25E8ADA1D36249900CF3BA9 /* Assets.xcassets in Resources */,
 				A25E8AE51D369AB800CF3BA9 /* shops.plist in Resources */,
@@ -198,6 +223,7 @@
 				A25E8ACF1D36249900CF3BA9 /* main.m in Sources */,
 				A25E8AEF1D378A8000CF3BA9 /* GZYShopView.m in Sources */,
 				A25E8AEA1D377CF700CF3BA9 /* Shop.m in Sources */,
+				A28BDBAE1D37F66C005DC249 /* GZYXibShopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
