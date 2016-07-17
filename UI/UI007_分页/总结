@@ -1,0 +1,3 @@
+- 分页
+- scrollView.pagingEnabled: YES 开启scrollView分页功能
+- pageControl: 分也标识
